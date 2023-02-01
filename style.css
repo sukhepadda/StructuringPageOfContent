@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      45deg,
+    rgba(245, 70, 66, 1),
+    rgba(8, 83, 156, 1)
+    )
+    /* ,url("https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png") */ /*for this you have to use opacity to 0.75 for each */
+    ;
+    height: 100%;
+    width: 100%;
+}
+.container2 {
+  color: white;
+  position: relative;
+}
+.main-title{
+    color: #DC0000;
+    font-size: 72px;
+    text-align: center;
+    margin:28px;
+}
+.title-desc{
+    color: #DC0000;
+    text-align: right;
+    font-size: 24px;
+    margin-right: 40px;
+
+}
+.introPara{
+    margin: 50px;
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:  #DC0000;
+    background-color: pink;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+.movie-list-content{
+text-align: center;
+margin-bottom: 60px;
+}
+
+.movie-list{
+color: #DC0000;
+font-size: 52px
+}
+.movie-list-items{
+    color: darkblue;
+    /* text-decoration: none ; */
+    font-size: 24px;
+}
+.ul-list li{
+    margin: 15px;
+    list-style-type: none;
+}
+.ul-list li a:hover{
+border: 2px solid #DC0000;   
+background-color: pink;
+padding: 10px;
+border-radius: 20px;
+}
+.img-content h2{
+    color: #DC0000;
+    text-align: center;
+    margin: 40px;
+    font-size: 42px;
+}
+.image-div{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    margin: 10px;
+    border: 1px solid black;
+}
+.images:hover{
+    border: 2px solid #DC0000;
+}
+hr{
+    height: 4px;
+    background-color: red;
+
+    width: 90%;
+    margin: 40px auto;
+}
+.contact-me{
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+}
+.contact-me a{
+    color: darkblue;
+}
